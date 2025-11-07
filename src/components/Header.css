@@ -1,0 +1,58 @@
+/* Header (Navbar) ko style karo */
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 0 40px;
+  background-color: #0d382c; /* Thoda sa darker green */
+  display: flex; /* Sabse zaroori: Items ko line mein laana */
+  justify-content: space-between; /* Items ko left, center aur right mein baantna */
+  align-items: center; /* Items ko vertically center mein laana */
+  position: fixed; /* Header hamesha top par rahega */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Baaki content ke upar dikhega */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Halka shadow */
+}
+
+/* Logo Styling */
+.navbar-logo strong {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #00704A; /* Starbucks Green Color */
+}
+
+/* Links Styling */
+.navbar-links ul {
+  list-style: none; /* Default bullets remove karna */
+  display: flex;
+  gap: 30px; /* Links ke beech mein space */
+}
+
+.navbar-links a {
+  text-decoration: none; /* Underline remove karna */
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #00704A; /* Hover par green color */
+}
+
+/* Button Styling */
+.sign-in-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-in-btn:hover {
+  background-color: #fff;
+  color: #0d382c;
+}
