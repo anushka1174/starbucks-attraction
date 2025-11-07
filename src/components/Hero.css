@@ -1,0 +1,80 @@
+/* Hero Section Styling */
+.hero-section {
+  display: flex; /* Items ko side-by-side rakhega */
+  justify-content: space-between; /* Space dega beech mein */
+  align-items: center;
+  padding: 60px 8%; /* Top/Bottom padding zyada, Left/Right kam */
+  max-width: 1400px;
+  margin: 0 auto; /* Center mein laayega section ko */
+}
+
+/* Left Content (Text) */
+.hero-content {
+  flex: 1; /* Aadhi jagah lega */
+  max-width: 50%;
+  text-align: left; /* Text left mein rakho */
+  animation: fadeIn 1.5s ease-out; /* Halka animation baad mein daalenge */
+}
+
+.hero-content h1 {
+  font-size: 5rem; /* Bada font size for impact */
+  margin-bottom: 20px;
+  line-height: 1.1;
+  color: #FFFFFF;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #c9c9c9;
+}
+
+/* Buttons Styling */
+.cta-buttons button {
+  padding: 12px 30px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-btn {
+  background-color: #00704A; /* Starbucks Bright Green */
+  color: #fff;
+}
+
+.order-btn:hover {
+  background-color: #005a39;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.menu-btn:hover {
+  background-color: #fff;
+  color: #0d382c;
+}
+
+/* Right Visuals */
+.hero-visuals {
+  flex: 1; /* Doosri aadhi jagah lega */
+  text-align: right;
+}
+
+.placeholder-cup {
+  width: 400px; /* Abhi ke liye size */
+  height: auto;
+  background-color: #00704A;
+  /* Image toh nahi hai, toh ek box bana dete hain */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
