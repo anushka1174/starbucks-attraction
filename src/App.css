@@ -1,19 +1,24 @@
+/* src/App.css - Poora Final aur Correct Code */
+
 /* Poore page ke liye basic reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif; /* Abhi simple font rakhte hain */
+  font-family: sans-serif;
 }
 
-/* Poore App ke liye background */
+/* Poore App ke liye background aur main layout */
 .main-container {
-  min-height: 100vh; /* Poori height use karo */
-  background-color: #0E382C; /* Starbucks jaisa dark green background */
-  color: #fff; /* Text white rakho */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  min-height: 100vh;
+  background-color: #0E382C;
+  color: #fff;
+  /* Header ke liye adjustment */
+  padding-top: 100px; 
+  padding-bottom: 40px; /* Neeche se bhi thodi padding */
+}
+
+.hero-section {
+  padding: 40px;
+  text-align: center;
 }

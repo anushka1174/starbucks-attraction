@@ -1,16 +1,15 @@
 import './App.css'; 
-// Is line ko check karo
 import Header from './components/Header'; 
 
 function App() {
   return (
     <div className="main-container">
-      {/* Is line ko check karo */}
       <Header /> 
-
+      
+      {/* Ab hum yahan Hero Component banayenge */}
       <div className="hero-section">
-        <h1>Starbucks Attraction Website</h1>
-        <p>Project ki shuruwat ho gayi!</p>
+        {/* Placeholder for the main attractive content (3D, image, text) */}
+        <h2>Welcome to the Attraction!</h2>
       </div>
     </div>
   );
