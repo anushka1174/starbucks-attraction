@@ -1,11 +1,13 @@
 import React from 'react';
-import './Hero.css'; // Iske liye CSS abhi banayenge
+import './Hero.css';
+// Naya Component: CoffeeCanvas ko import kiya
+import CoffeeCanvas from './CoffeeCanvas'; 
 
 const Hero = () => {
   return (
     <main className="hero-section">
-
-      {/* Left Side: Content */}
+      
+      {/* Left Side: Content (No Change) */}
       <div className="hero-content">
         <h1>It's not just Coffee, It's an Experience.</h1>
         <p>
@@ -17,11 +19,11 @@ const Hero = () => {
           <button className="menu-btn">View Menu</button>
         </div>
       </div>
-
-      {/* Right Side: Visuals (Jahan 3D Model aayega) */}
+      
+      {/* Right Side: Visuals (Placeholder replaced with 3D Canvas) */}
       <div className="hero-visuals">
-        {/* Abhi ke liye placeholder image/text */}
-        <img src="/starbucks-cup.png" alt="Starbucks Product" className="placeholder-cup"/>
+        {/* Ab humara 3D component yahan render hoga */}
+        <CoffeeCanvas /> 
       </div>
 
     </main>
