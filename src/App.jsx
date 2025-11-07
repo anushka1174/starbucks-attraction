@@ -1,35 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// Pehle 'react' se zaroori chizein import karte hain
+import './App.css'; 
 
+// Function Component define karna
 function App() {
-  const [count, setCount] = useState(0)
-
+  // Component ka return (output)
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="main-container">
+      {/* Abhi hum yahan header banayenge */}
+      <h1>Starbucks Attraction Website</h1>
+      <p>Project ki shuruwat ho gayi!</p>
+    </div>
+  );
 }
 
-export default App
+// Component ko export karna taaki doosri files use kar saken
+export default App;
